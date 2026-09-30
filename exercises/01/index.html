@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8"><!--This is to identify especial characters-->
         <title>Exercise 01 de Manuel Malia y José Jurado</title>
     </head>
     <body>
+        <!--The header is where we pull our names-->
         <header>
-            <h1>Manuel Malia y José Jurado</h1>
+            <h1>Manuel Malia and José Jurado</h1>
         </header>
+        <!--This is where the main content remains,it has 2 sections, one for manu and one for pepe, it also uses an <hr/> to separte visually our sections, we implement an <aside>, becasu its just an external thing-->
         <main>
             <!--Pepe-->
             <section> 
-                <h2>Información de Pepe</h2>
-                <p>Hi, i'm <strong>José Jurado</strong>, I study computer science in Loyola, I support the best team in Seville:<em>Real Betis Balompié</em></p>
+                <h2>Info about Pepe</h2>
+                <p>Hi, I'm <strong>José Jurado</strong>, I study computer science in Loyola and support the best team in Seville: <em>Real Betis Balompié</em></p>
+                <!--We use figure because of the semantic Html, ith where the images are located, we used alt in case that the image does not work-->
                 <figure>
-                    <img src="images/betis.png" alt="escudo del betis" width="100">
+                    <img src="images/betis.png" alt="Betis Logo" width="100">
                     <figcaption>The best team</figcaption>
                 </figure>
-                <p>I want this year to be one of the best, for me and even for betis</p>
-                <a href="https://www.marca.com/futbol/seleccion/espana-campeona-del-mundo-2026-marca.shtml" target="_blank">Sorpresa</a>                 
+                <p>I want this year to be one of the best, for me and even for Betis</p>
+                <aside><p><a href="https://www.marca.com/futbol/seleccion/espana-campeona-del-mundo-2026-marca.shtml" target="_blank">Surprise</a></p></aside>
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>God</li>
+                    <li>Sports (soccer, tennis..)</li>
+                    <li>Videogames</li>
+                    <li>Hang out with friends</li>
+                </ul>
+
             </section>
             <hr/> 
             
             <!--Manu-->
             <section>
-                <h2>Información de Manu</h2>
+                <h2>Info about Manu</h2>
                 <p>Hi, I'm <strong>Manuel Malia</strong>, I'm from Barbate, and while I study I also offer <em>automation services</em> to small and medium businesses (pymes).</p>
                 <figure>
                     <img src="images/barbate.jpeg" alt="Playa del Carmen, Barbate" width="100">
                     <figcaption>My hometown, Barbate</figcaption>
                 </figure>
+                <!--We use blank to open another tab-->
                 <a href="https://www.linkedin.com/in/manuel-malia-vidal-921778224/" target="_blank">My LinkedIn</a>
                 <h3>How I help businesses</h3>
                 <ol>
@@ -47,6 +59,7 @@
                 </ul>
             </section>
         </main>
-        <footer>&copy; 2026 Manuel Malia. Todos los derechos reservados.</footer>
+        <!--We use &copy because of copyright-->
+        <footer>&copy; 2026 Manuel Malia. Rights reserved.</footer>
     </body>
 </html>
