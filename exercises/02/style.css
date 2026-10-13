@@ -1,0 +1,102 @@
+body {
+    background-color: white;
+    font-family:  "Helvetica", "Arial", sans-serif;
+    margin: 0;
+    font-size: 15px;
+}
+header {
+    color: white;
+    background-color: darkblue;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+main{
+    color: black;
+    background-color: white; /*por defecto aunque cada uno ponga el suyo*/
+}
+
+.Pepe_layout {
+    display: flex;                    
+    justify-content: space-between;   
+    align-items: flex-start;          
+}
+
+.Pepe{
+    background-color: aliceblue;
+    padding: 13px 0 20px 20px;
+}
+
+.Pepe h2{
+    margin-top: 0;
+}
+
+.Pepe h3{
+    margin-top: 40px;
+}
+.Hobbies{
+    display:flex;
+}
+
+.Hobbies ul{
+    list-style-type: circle;
+    border: 2px solid;
+    padding: 5px 10px 5px 25px;
+    margin-top: 0;
+}
+
+.Hobbies li{
+    margin-bottom: 5px;
+    /*no pongo color porque ya lo tengo en el main*/
+}
+
+.card a:link {
+    color: #AA151B;              /* rojo España */
+    text-decoration: none;
+}
+
+.card a:visited {
+    color: #5E0B0F;              /* rojo mucho más oscuro para cuando esta visitado */
+}
+
+.card a:hover {
+    color: #FBFF0D;              
+    background-color: #AA151B;   
+    text-decoration: underline;
+}
+
+.card a:active {
+    color: white;                /* blanco mientras lo pulsas */
+}
+
+.card {
+    background-color: #FBFF0D;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #BBBBBB;
+    margin-right: 20px;
+}
+
+.card h3 {
+    margin-top: 0;
+    background-color: #F4A6A6;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+}
+
+.card ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.card p{
+    padding: 0 20px 10px 20px;
+}
+
+.card li{
+    margin-bottom: 10px;
+}
+hr {
+    margin: 0;
+}
