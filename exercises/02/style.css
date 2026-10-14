@@ -100,3 +100,65 @@ main{
 hr {
     margin: 0;
 }
+
+/* --- Manu's section --- */
+.Manu {
+    background-color: #FFF8E7; /* fondo arena, tipo playa de Barbate */
+    padding: 13px 0 20px 20px;
+}
+
+.Manu h2 {
+    margin-top: 0;
+}
+
+.Manu h3 {
+    margin-top: 40px;
+}
+
+.Manu ol,
+.Manu ul {
+    border: 2px solid #007C91; /* azul-verdoso, tipo mar */
+    padding: 5px 10px 5px 25px;
+    max-width: 300px;
+}
+
+.Manu ol {
+    list-style-type: decimal;
+}
+
+.Manu ul {
+    list-style-type: square;
+}
+
+.Manu li {
+    margin-bottom: 5px;
+}
+
+.Manu a:link {
+    color: #0077B5; /* azul de LinkedIn */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Manu a:visited {
+    color: #004a73;
+}
+
+.Manu a:hover {
+    color: white;
+    background-color: #0077B5;
+    text-decoration: underline;
+}
+
+.Manu a:active {
+    color: yellow;
+}
+
+/* --- Footer --- */
+footer {
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
